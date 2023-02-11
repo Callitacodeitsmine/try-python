@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Form Example</title>
+   </head>
+   <body>
+      <form action = "/submit" method = "post" enctype = "multipart/form-data">
+         <p>Enter your name:</p>
+         <p><input type = "text" name = "name" /></p>
+         <p>Upload your photo:</p>
+         <p><input type = "file" name = "photo" /></p>
+         <p>Enter your company:</p>
+         <p><input type = "text" name = "company" /></p>
+         <p>Choose the video:</p>
+         <p>
+            <select name="video_choice">
+               <option value="Video\03_Diabetes and Complications_Assamese.mp4">Assamese</option>
+               <option value="Video\03_Diabetes and Complications_Bengali.mp4">Bengali</option>
+               <option value="Video\03_Diabetes and Complications_Gujarati.mp4">Gujarati</option>
+               <option value="Video\03_Diabetes and Complications_Hindi.mp4">Hindi</option>
+               <option value="Video\03_Diabetes and Complications_Kannada.mp4">Kannada</option>
+               <option value="Video\03_Diabetes and Complications_Malayalam.mp4">Malayalam</option>
+               <option value="Video\03_Diabetes and Complications_Marathi.mp4">Marathi</option>
+               <option value="Video\03_Diabetes and Complications_Tamil.mp4">Tamil</option>
+               <option value="Video\03_Diabetes and Complications_Telugu.mp4">Telugu</option>
+
+            </select>
+         </p>
+         <p><input type = "submit" value = "Submit" /></p>
+      </form>
+   </body>
+</html>

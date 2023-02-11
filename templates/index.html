@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Add Info to Video</title>
+   </head>
+   <body>
+      <h1>Add Info to Video</h1>
+      <form action = "/submit" method = "post" enctype = "multipart/form-data">
+         <p>Name: <input type = "text" name = "name" /></p>
+         <p>Photo: <input type = "file" name = "photo" /></p>
+         <p>Company: <input type = "text" name = "company" /></p>
+         <p>Video Choice:
+            <select name = "video_choice">
+               <option value = "input1.mp4">input1.mp4</option>
+               <option value = "input2.mp4">input2.mp4</option>
+            </select>
+         </p>
+         <p><input type = "submit" value = "Submit" /></p>
+      </form>
+   </body>
+</html>
